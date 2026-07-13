@@ -24,6 +24,8 @@ section { margin-bottom: 72px; }
 .category-card a, .album-card a { display: block; text-decoration: none; }
 .category-card img, .album-card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--wash); }
 .card-copy { min-height: 118px; padding: 18px 20px; }
+.card-description { min-height: 3.4em; }
+.review-note { color: #8a5a20 !important; font-size: .78rem !important; }
 .category-card p, .album-card p { margin: 11px 0 0; color: var(--muted); font-size: .88rem; }
 .image-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 18px; }
 .image-card { margin: 0; overflow: hidden; border: 1px solid var(--line); background: var(--wash); }
