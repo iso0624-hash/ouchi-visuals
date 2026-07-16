@@ -23,6 +23,7 @@ section { margin-bottom: 72px; }
 .category-card:hover, .album-card:hover { border-color: var(--accent); transform: translateY(-3px); }
 .category-card a, .album-card a { display: block; text-decoration: none; }
 .category-card img, .album-card img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--wash); }
+.category-icon { width: 42px !important; height: 42px; aspect-ratio: 1 !important; object-fit: cover !important; border-radius: 12px; margin-bottom: 10px; }
 .card-copy { min-height: 118px; padding: 18px 20px; }
 .card-description { min-height: 3.4em; }
 .review-note { color: #8a5a20 !important; font-size: .78rem !important; }
